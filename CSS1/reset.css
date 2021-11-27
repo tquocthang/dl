@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+	font-weight: normal;
+}
+body {
+	line-height: 1;
+	font-weight: normal;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+}
+
+ul {
+	list-style: none;
+}
+.item ul, .item ol{
+       list-style: initial;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item ol{
+    list-style-type: decimal;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+   /* width: 669px;*/
+}
+
+/* Clearfix
+-------------------------------------------------------------*/
+* html .clearfix {
+	height: 1%; /* IE5-6 */
+}
+
+html[xmlns] .clearfix { /* O */
+	display: block;  
+}
+
+.clearfix:after { /* FF, O, etc. */
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Generic Styles
+-------------------------------------------------------------*/
+.clear, .divider {clear: both;}
+
+.no-display {display: none !important;}
+
+.nowrap,.nobr {white-space: nowrap !important;}
+
+.no-border {
+	border: 0 !important;
+}
+
+.no-padding {padding: 0 !important}
+.no-margin 	{margin: 0 !important;}
+.no-background {background: none !important;}
+
+/*Alignment---*/
+.v-top 		{vertical-align: top !important;}
+.v-middle	{vertical-align: middle !important;}
+.v-bottom 	{vertical-align: bottom !important;}
+
+.a-left		{text-align: left !important;}
+.a-center	{text-align: center !important;}
+.a-right		{text-align: right !important;}
+
+.left		{float: left !important;}
+.right	{float: right !important;}
+
+.auto-width {width: auto !important;}
+
+@media (max-width: 740px) {
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		width: 300px;
+	}
+	#ct100_ucRight1_Panel1 {
+		display: none;
+	}
+}

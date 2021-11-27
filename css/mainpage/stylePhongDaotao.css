@@ -1,0 +1,585 @@
+body
+{
+    background: #96DAF1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    text-align: left;
+    font-size: 12px;
+}
+
+p
+{
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #2C83A0;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#main_container
+{
+    width: 960px;
+    margin: auto;
+    background-color: #F7F9F8;
+}
+
+#header
+{
+    width: 960px;
+    margin: auto;
+}
+
+/*----------------------menu-------------------------*/
+#menu
+{
+    width: 100%; /*height:24px;*/
+    float: right;
+    padding: 5px 0 5px 0;
+    margin-bottom: 5px;
+}
+/*#menu ul{
+list-style:none;padding:0px;margin:0px;display:block; font-weight:bold;
+}
+#menu ul li.divider{
+height:24px;width:25px;background:url(images/menu_divider.gif) no-repeat center; float:left; display:block; padding:8px 0 0 0;
+}
+#menu ul li{
+list-style:none;display:inline;float:left;width:auto;height:24px;padding:0px;line-height:32px; font-family:Arial, Helvetica, sans-serif; font-size:14px;
+}
+#menu ul li a{
+height:24px; width: auto;float:left;text-decoration:none;padding:0 8px 0 8px; margin:0px;color:#2c6b8e;text-align:center;
+}
+#menu ul li a:hover{
+height:24px;width: auto;text-decoration:none;color: #974132;
+}
+#menu ul li a.current{
+height:24px;width: auto;float:left;text-decoration:none;padding:0 8px 0 8px;color: #974132;
+}*/
+
+#middle_box
+{
+    width: 950px;
+    height: 153px;
+    clear: both;
+    margin: auto;
+    background: url(../../images/banner-phongdaotao.jpg) no-repeat center;
+    border: 1px solid #165975; /* margin-bottom: 20px;*/
+}
+
+.col-full
+{
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+
+.col-left
+{
+    width: 740px;
+    margin-right: 10px;
+    float: left;
+    min-height: 1px;
+}
+
+.col-right
+{
+    width: 200px;
+    float: left;
+}
+
+.mod
+{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.mod .head, .mod .head-icon
+{
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    padding: 0 0 0 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #2C83A0;
+}
+
+.mod .head-icon
+{
+    margin-top: 53px;
+}
+
+.mod .icon
+{
+    position: absolute;
+    top: -43px;
+    right: 0;
+    z-index: 10;
+}
+
+.mod .head h3, .mod .head-icon
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+}
+
+.mod .body
+{
+    padding: 10px;
+    border: solid 1px #2C83A0;
+    background: #fff;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.login-form td
+{
+    padding-bottom: 5px;
+}
+
+.news-list .item
+{
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.news-list .item .title a
+{
+    color: #2C83A0;
+}
+
+.news-list .item .title .date
+{
+    font-size: 10px;
+    color: #666;
+}
+
+a.button, input.button
+{
+    background: #FF6715;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 3px 10px !important;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+
+a.button
+{
+    padding: 5px 10px;
+}
+
+a.button:hover, input.button:hover
+{
+    background-color:#E8A029 !important;
+    text-decoration: none;
+}
+
+.button[disabled=disabled]
+{
+    background: #ccc;
+}
+
+a.linkbutton
+{
+    font-size: 14px;
+    color: #FF6715;
+}
+
+a.linkbutton:hover
+{
+    text-decoration: underline;
+    color: #E8A029;
+}
+
+a.icon-help
+{
+    background: url(../../images/icon-help.png) no-repeat;
+    padding: 5px 0 5px 30px;
+}
+
+.menu-list li
+{
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 5px;
+}
+
+.menu-list li a
+{
+    background: url(../../images/arrow-2.png) left 5px no-repeat;
+    display: block;
+    padding: 5px 0px 5px 15px;
+}
+
+.menu-list li a:hover
+{
+    color: #FF6715;
+    background: url(../../images/arrow-2-hover.png) left 5px no-repeat;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+table.grid
+{
+    width: 100%;
+    background: #fff;
+}
+
+table.grid td
+{
+    padding: 10px 10px;
+    border: 1px solid #999;
+    vertical-align: top;
+}
+
+table.none-grid td
+{
+    padding: 22px 10px;
+    padding-top:0px;
+}
+
+table.grid .oddTr
+{
+    background: #e8e8e8;
+}
+
+
+
+table.grid .col1
+{
+    background: #dfdfdf;
+}
+
+table.grid .col2
+{
+    font-weight: bold;
+}
+
+table.grid-noborder
+{
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+table.grid-noborder td
+{
+    padding: 5px 10px;
+    border: none;
+    vertical-align: top;
+}
+
+h1.page-title
+{
+    background: #2C83A0;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid #7BBCD1;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.table-title
+{
+    background: #2C83A0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #7BBCD1;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#tblDetail tr:hover
+{
+    background: #d0eff9;
+}
+
+.font14
+{
+    font-size: 14px;
+}
+.font16
+{
+    font-size: 16px;
+}
+.font18
+{
+    font-size: 18px;
+}
+.font20
+{
+    font-size: 20px;
+}
+.font24
+{
+    font-size: 24px;
+}
+
+.Required
+{
+    color: #ff0000;
+}
+
+.stuInfo .col1
+{
+    width: 150px;
+    text-align: center;
+    background: #fff !important;
+}
+.stuInfo .col2
+{
+    background: #dfdfdf;
+    font-weight: bold;
+    width: 150px;
+}
+.stuInfo .col3
+{
+    background: #fff;
+}
+
+.tblKetQuaHocTap .tblMarkHeader
+{
+    background: #9fe0f8;
+}
+
+.quater
+{
+    text-align: center;
+    background: rgb(255, 253, 232);
+}
+.tblKetQuaHocTap td
+{
+    vertical-align: middle !important;
+}
+
+#footer
+{
+    background: #2C83A0;
+    border-top: 2px solid #555;
+    padding: 30px 10px 20px 10px;
+}
+
+.copyright
+{
+    text-align: center;
+    color: white;
+    line-height: 18px;
+}
+
+.copyright a
+{
+    color: #fff;
+    font-weight: bold;
+}
+
+.titleTT
+{
+    font-size: 18px;
+    color: #5C5CFF;
+    background-color: #F8FFE5;
+}
+
+.news-list .paging
+{
+    float: right;
+    margin: 30px 30px 0 0;
+}
+.read_more
+{
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.other-title
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #2C83A0;
+    padding-left: 10px;
+}
+
+.newsList
+{
+    padding-left: 25px;
+}
+.newsList li
+{
+    padding: 2px;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-left
+{
+    text-align: left;
+}
+
+.DivLockScreen
+{
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    background-color: #F3F3F3;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    position: absolute;
+}
+
+/*thanh toan*/
+#tblPhieuThu .tr1
+{
+    background-color: #FFFFC2;
+}
+#tblPhieuThu .tr2
+{
+    background-color: Green;
+}
+
+.main-content
+{
+    width: 100%;
+    border: 1px solid;
+}
+.title-group
+{
+    width:100%;
+    text-align:center;
+    line-height:30px;
+    color:White;
+    font-size:15px;
+    font-weight:bold;
+}
+
+
+
+
+
+/*config color*/
+.title-group,.mod .head,#footer,.GridView_TrTitle,.page-title,table.grid-color2 th, .table-title,.sf-menu > li,.sf-menu,.head-icon
+{
+    background-color:#36287d !important;
+}
+input.button,a.button
+{
+      background-color:#ff6715 !important;    
+}
+/*Màu các button khi disable*/
+.buttonDisable
+{    
+    background: Gray;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 3px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center; 
+}
+/*khi sửa màu background trên thì sửa thêm cái border grid dưới*/
+
+.mod .body,.main-content,.GirdTitleDangKyHocPhan,.GirdBodyDangKyHocPhan,.bor-right,.box-search  /*khung*/
+/*.GirdTitleDangKyHocPhan,.GirdBodyDangKyHocPhan dangkyhocphan.aspx*/
+{
+    border-color:rgb(54, 40, 125) !important;    
+}
+table.grid-color2 th /*head table*/
+{
+    border-color:#f7f9f8 !important;    
+}
+table.grid td,.GridView_TblMain tr td,.GridView_TblMain
+/*grid body table */  /*.GridView_TblMain tr td,.GridView_TblMain dangkyhocphan.aspx*/
+{
+  border-color:rgb(149, 193, 224) !important;
+}
+
+.hoc-ky
+{
+    text-align:center;color:rgb(25, 122, 228);font-weight:bold;
+}
+/*end config color*/
+
+
+
+
+
+table.grid-color2 th
+{
+    background: #59a7c0;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    border: 1px solid ;
+}
+
+.body-group
+{
+  padding:10px 5px;      
+}
+.body-group .group-left,.body-group .group-right
+{
+    float:left;
+}
+.hinh-sinhvien
+{
+    width:135px;
+    height:180px;  
+}
+.bold
+{
+    font-weight:bold;    
+}
+
+.ma-sinhvien
+{
+    padding-top: 25px;
+    font-weight:bold;
+    text-align:center;    
+}
+
+.message
+{
+    color:Red;
+   font-size:14px;
+   font-weight:bold;
+   text-align:center;
+   padding:5px;    
+}
+
+table .left-none
+{
+    border-left:none !important;    
+}
+table .right-none
+{
+    border-right:none !important;    
+}
+.bat-buoc
+{
+    color:Red;
+    font-weight:bold;
+}

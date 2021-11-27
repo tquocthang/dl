@@ -1,0 +1,87 @@
+.clear {
+	clear: both;
+}
+
+/* ========== pagination ========== */
+#pagination-flickr {
+    clear: both; /*float: right;*/
+}
+
+#pagination-flickr li {
+    font-size: 11px;
+    display: inline; float: left;
+}
+
+#pagination-flickr a {
+    border: solid 1px #8C8C8C; margin-right: 2px;
+}
+
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off {
+    color: #8C8C8C; font-weight: bold;
+    display: inline; float: left; padding: 3px 4px;
+}
+
+#pagination-flickr .next a,
+#pagination-flickr .previous a {
+    font-weight: bold;
+    border: solid 1px #8C8C8C;
+}
+
+#pagination-flickr .active {
+    color: #267CB2 /* do dam */; font-weight: bold;
+    display: inline; float: left; padding: 4px 6px;
+}
+
+#pagination-flickr a:link,
+#pagination-flickr a:visited {
+    color: #8C8C8C; text-decoration: none;
+    display: inline; float: left; padding: 3px 6px;
+}
+
+#pagination-flickr a:hover {
+    border: solid 1px #267CB2; color: #267CB2;
+}
+/* ========== ket thuc pagination ========== */
+
+/* ========== popup ========== */
+div.backgroundPopup {
+    display:none;
+    position:fixed;
+    _position:absolute; /* hack for internet explorer 6*/
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background:#000000;
+    border:1px solid #cecece;
+    z-index:1;
+    margin-left:-1px;
+}
+
+div.popup {
+    display:none;
+    position:fixed;
+    _position:absolute; /* hack for internet explorer 6*/
+    width:650px;
+    /*background: #FFF;*/
+    background: #EFEFEF url(../Resource/Image/Admin/bg_td2.jpg) repeat-x top left;
+    border:2px solid #cecece;
+    z-index:2;
+    padding:12px;
+    font-size:13px;
+    text-align:left;
+}
+
+    div.popup h1 {
+        text-align:left;
+        color:#6FA5FD;
+        font-size:22px;
+        font-weight:700;
+        border-bottom:1px dotted #D3D3D3;
+        padding-bottom:2px;
+        margin-bottom:20px;
+    }
+
+    div.popup .popupClose { background: transparent url(../Resource/Icon/Close.gif) no-repeat top left; color: #0E9398 /* xanh la cay dam */; display: block; font-size: 24px; font-weight: 700; height: 16px; line-height: 24px; position: absolute; right: 6px; text-decoration: none; top: 6px; width: 16px; }
+/* ========== ket thuc popup ========== */

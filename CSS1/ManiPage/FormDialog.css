@@ -1,0 +1,109 @@
+.DivDialog
+{
+	position:absolute;
+	z-index:2;
+}
+.DialogTableTitle
+{
+	width:100%;
+}
+.TdDialogTitle
+{
+	background-image:url(../../Resource/Icon/Design/DialogTitle.png);
+	background-repeat:repeat-x;
+	height:31px;
+	text-transform:capitalize;
+	font-size:10pt;
+	font-weight:bold;
+	cursor:move;
+	position: relative;
+}
+.TdDialogTitle img
+{
+	margin-top:5px;
+}
+.TdDialogTitleLeft
+{
+	background-image:url(../../Resource/Icon/Design/DialogLeftTitle.png);
+	width:6px;
+	height:31px;
+}
+.TdDialogTitleRight
+{
+	background-image:url(../../Resource/Icon/Design/DialogRightTitle.png);
+	width:6px;
+	height:31px;
+}
+.TdDialogBottom
+{
+	background-color:#DDE9F4;
+	border-top:solid 1px #8EA5B9;
+	border-bottom:solid 2px #277386;
+	border-left:solid 2px #277386;
+	border-right:solid 2px #277386;
+	height:10px;
+}
+.DivContentDialgog
+{
+	border-left:solid 2px #277386;
+	border-right:solid 2px #277386;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#F5F8FC;
+}
+.DialogTable
+{
+	border-collapse:collapse;
+	/*border-left:solid 2px #277386;
+	border-right:solid 2px #277386;
+	border-bottom:solid 2px #277386;*/
+	width:100%;
+	background-color:#F5F8FC;
+}
+.TdLable
+{
+	width:1%;
+	/*text-align:right;*/
+	padding-right:5px;
+	white-space:nowrap;
+	height:28px;
+}
+.TdControl
+{
+	text-align:left;
+	/*padding-right:5px;*/
+}
+.DivCloseButton
+{
+	float:right;
+	padding-right:5px;
+	line-height:30px;
+	text-align:center;
+}
+.DivCloseButton img
+{
+	margin-top:6px;
+}
+.DivCloseButton:hover
+{
+	float:right;
+	padding-right:5px;
+	cursor:pointer;
+}
+.TdTitleForm
+{
+	height:28px;
+	text-align:left;
+	padding-left:5px;
+	background-color:#D6E5C5;
+}
+
+.ButtonDialog
+{
+	font-weight:bold;
+	width:80px;
+	height:24px;
+	font-size:10pt;
+}
